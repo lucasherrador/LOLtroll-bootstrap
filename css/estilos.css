@@ -34,3 +34,55 @@
   }
   
   
+
+
+  /* Ejemplo animaciones */
+
+  .header__index{
+    animation: jackInTheBox;
+    animation-duration: 2s;
+}
+  .header__nosotros{
+    animation: zoomIn;
+    animation-duration: 2s;
+}
+
+/* .descripcion__inicio{
+  animation: zoomIn;
+  animation-duration: 2s;
+} */
+
+.tarjetas__header h1{
+  animation:fadeInLeft;
+  animation-duration: 2s;
+}
+.tarjetas__header p{
+  animation:fadeInLeft;
+  animation-duration: 2s;
+}
+
+.tarjetas__champs{
+  animation:fadeInUpBig;
+  animation-duration: 2s;
+}
+
+
+
+.menu__link{
+ transition:all 1s;
+}
+
+.menu__link:hover{
+  font-size: 1.5rem;
+  color: solid white;
+}
+ 
+.descripcion__uno h3{
+  color: solid black;
+  text-decoration: underline;
+}
+
+.descripcion__dos h3{
+  color: solid black;
+  text-decoration: underline;
+}
