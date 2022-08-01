@@ -35,8 +35,7 @@
   
   
 
-
-  /* Ejemplo animaciones */
+  /* animaciones */
 
   .header__index{
     animation: jackInTheBox;
@@ -46,11 +45,6 @@
     animation: zoomIn;
     animation-duration: 2s;
 }
-
-/* .descripcion__inicio{
-  animation: zoomIn;
-  animation-duration: 2s;
-} */
 
 .tarjetas__header h1{
   animation:fadeInLeft;
@@ -65,8 +59,6 @@
   animation:fadeInUpBig;
   animation-duration: 2s;
 }
-
-
 
 .menu__link{
  transition:all 1s;
